@@ -43,6 +43,7 @@ resource "azurerm_network_interface" "appinterface" {
     public_ip_address_id          = azurerm_public_ip.appip.id
   }
   depends_on = [
+    azurerm_resource_group.appgrp,
     azurerm_subnet.subnet01
   ]
 }
