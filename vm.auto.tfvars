@@ -1,5 +1,5 @@
 resource_group_name     = "rg-acme-intl"
-resource_group_location = "North Europe"
+resource_group_location = "eastus"
 
 virtual_network_name = "vnet-acme-intl-mainapp"
 
